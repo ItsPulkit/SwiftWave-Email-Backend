@@ -17,7 +17,7 @@ public class EmailTest {
   @Test
   void emailTest() {
     System.out.println("Sending Email...");
-    service.sendEmail("abc@gmail.com", "Testing", "Testing Emai Sender");
+    service.sendEmail("abcd@gmail.com", "Testing", "Testing Emai Sender");
     System.out.println("Email Send Test");
 
   }
@@ -25,7 +25,7 @@ public class EmailTest {
   @Test
   void emailFileTest() {
     System.out.println("Sending Email...");
-    service.sendEmailWithFile("abc.@gmail.com", "Testing", "Heello",
+    service.sendEmailWithFile("abcd.@gmail.com", "Testing", "Heello",
         (MultipartFile) new File(
             "C:\\Users\\rpulk\\OneDrive\\Desktop\\Projects\\Email\\Email\\src\\main\\resources\\static\\images\\Firefly a simple potrait image of young man , which looks realistic 41546.jpg"));
     System.out.println("Email Send Test");
